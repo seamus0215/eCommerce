@@ -5,12 +5,7 @@ import "./styles.scss";
 const Footer = (props) => {
   return (
     <footer className="footer">
-      <div className="wrap">
-        <div className="logoSpan">
-          &nbsp;
-          <img src={Logo} alt="logo" />
-        </div>
-      </div>
+      <div className="wrap">&copy;Seamus2021</div>
     </footer>
   );
 };
