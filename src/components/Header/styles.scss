@@ -12,7 +12,7 @@
             width: 10rem;
             position: absolute;
             top: 50%;
-            left: 0;
+            left: 2rem;
             -webkit-transform: translateY(-50%);
             -moz-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -39,10 +39,16 @@
             }
 
             li {
+                display: inline-block;
                 list-style-type: none;
+                margin-right: 1.5rem;
+
+                &:last-child {
+                    margin-right: 0;
+                }
 
                 a {
-                    font-size: 1.2rem;
+                    font-size: 1.5rem;
                     line-height: 1;
                     color: black;
                     text-decoration: none;
